@@ -2,14 +2,6 @@
 
 @import "tailwindcss";
 
-/* @theme {
-  
-  --primary: #eceeff; bg-indigo-50 / text-indigo-50
-  --coral-red: #ff6452; bg-rose-400 / text-rose-400
-  --pale-blue: #f5f6ff; bg-sky-50 / text-sky-50
-  --white-400: rgba(255, 255, 255, 0.8);text-white/80 / bg-white/80
-} */
-
 .font-montserrat {
   font-family: "Montserrat", sans-serif;
 }
@@ -26,12 +18,6 @@
 
   .input {
     @apply sm:flex-1 max-sm:w-full text-base leading-normal text-gray-600 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-gray-600 max-sm:rounded-full;
-  }
-
-  @media (min-width: 1440px) {
-    .wide\:padding-r {
-      padding-right: 4rem;
-    }
   }
 }
 
@@ -75,25 +61,5 @@
 
   .bg-card {
     background-image: url("assets/images/thumbnail-background.svg");
-  }
-
-  /* @media (min-width: 1440px) {
-    .wide\:text-xl {
-      font-size: 1.25rem; 
-    }
-
-    .wide\:py-40 {
-      padding-top: 10rem;
-      padding-bottom: 10rem;
-    }
-
-    .wide\:grid-cols-4 {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  } */
-  @media (min-width: 1440px) {
-    .wide\:padding-r {
-      padding-right: 4rem; /* équivalent à pr-16 */
-    }
   }
 }
